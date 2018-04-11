@@ -1,3 +1,8 @@
+# Summary
+The below list contains Vulnerabilities, each followed by a short description, pertaining to the Windows 2012 and 2016 servers. Each year is split into the "Main Server" and "Domain Control" operating systems. Both Standalone and Member Servers are included in the "Main Server" column. By patching all of the shown flaws in the Windows firewall, any systems running our software are much less susceptible to attacks.
+## Controls
+Each vulnerability will cover one or more NIST 800 controls. The controls are rated as either Low-Impact, Mid-Impact, and High-Impact. Both Autostructure and Microsoft Azure covers many of the NIST controls.
+
 | NIST 800 53                | DEGREE OF HARDENING (WINDOWS 2016) |                      |         |                                           |
 |----------------------------|------------------------------------|----------------------|---------|-------------------------------------------|
 | Controls                   | LOW                                | MODERATE             | HIGH    | NOT REQUIRED BY NIST (But Still Provided) |
@@ -201,7 +206,7 @@
 | SC-28                      |                                    | x                    |         | (1)                                       |
 | SI-2 (2)                   |                                    | (2)                  |         |                                           |
 | SI-3 (1) (2)               |                                    |                      |         |                                           |
-| SI-4 (2) (4) (5)           |                                    |                      |         |                                           | 
+| SI-4 (2) (4) (5)           |                                    |                      |         |                                           |
 | SI-7 (1) (7)               |                                    | (1) (7)              |         |                                           |
 | SI-8 (1) (2)               |                                    |                      |         |                                           |
 | SI-10                      |                                    | x                    |         |                                           |
