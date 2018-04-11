@@ -1,7 +1,7 @@
 # Summary
-The below list contains Vulnerabilities, each followed by a short description, pertaining to the Windows 2012 and 2016 servers. Each year is split into the "Main Server" and "Domain Control" operating systems. Both Standalone and Member Servers are included in the "Main Server" column. By patching all of the shown flaws in the Windows firewall, any systems running our software are much less susceptible to attacks.
+The list shown below contains all of the NIST 800 Revision 4 controls that are covered by hardening Windows 2012 and 2016 Standalone, Member, and Domain Control servers. 
 ## Controls
-Each vulnerability will cover one or more NIST 800 controls. The controls are rated as either Low-Impact, Mid-Impact, and High-Impact. Both Autostructure and Microsoft Azure covers many of the NIST controls.
+Each control is ranked as either Low, Moderate, or High impact, based on the severity of ----. Certain controls and control attributes are not required by the National Institute of Standards and Technology (NIST), but are covered to provide additional security for participating systems. Both Autostructure and Microsoft Azure covers many of the NIST controls.
 
 | NIST 800 53                | DEGREE OF HARDENING (WINDOWS 2016) |                      |         |                                           |
 |----------------------------|------------------------------------|----------------------|---------|-------------------------------------------|
