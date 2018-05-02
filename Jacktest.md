@@ -3,6 +3,7 @@
 #### Table of Contents
 
 1. [Description](#description)
+9. [Description](#description)
 2. [Setup - Getting you started with *secure_windows*](#setup)
 3. [Usage - Configuration options and additional functionality](#usage)
     * [No-Op Mode - Running the Puppet Agent without implementing any changes](#no-op-mode)
