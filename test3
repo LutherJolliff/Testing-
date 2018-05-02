@@ -44,7 +44,7 @@ There are 655 vulnerabilities incuded in both Windows STIGS, and each one can be
 secure_windows::stig::v73379::enforced: false
 ```
 
-### No-Op Mode
+### No Op Mode
 It is possible to run the module in "No-Op Mode", which identifies detected Configuration Drifts without implementing any actual changes
 
 ```
@@ -55,7 +55,7 @@ puppet agent -t --noop
 Below are lists of vunerabilities that can **potentially break the client's application if the rights described in the listed vulnerability are essential to operation**, **are reported on but cannot be changed** or are **Non-Applicable to the system**
 
 
-### Potentially Application-Breaking Rights Privileges
+### Potentially Application Breaking Rights Privileges
 Below is a list of vulnerabilities that require extra care and attention. By default, these vulnerabilities enforce proper user permissions on the machine. However, it is possible that an application might require one of these user rights. In that case, vendor documentation must support the requirement for having the user right and the requirement must be documented with the ISSO. In addition, you should disable this module from managing that right on that node, as it could break that application. Instead, manage that right in your own Puppet code:
 - V-73731
 - V-73733
@@ -118,7 +118,7 @@ Message Input
 
 Message @jack
 
-### Non-Applicable to the System
+### Non Applicable to the System
 - V-73217
 - V-73219
 - V-73221
